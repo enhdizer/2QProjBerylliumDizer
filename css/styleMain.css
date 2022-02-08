@@ -1,0 +1,84 @@
+.head { 
+	background-color: #242733;
+	margin: 10px 2px;
+	padding: 20px;
+}
+.centerText {
+	text-align: center;
+}
+.centerImage { 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.marginTop { 
+	margin-top: -14px;
+}
+.marginLeft {
+	margin-right: -50px;
+}
+.marginRight {
+	margin-left: -50px;
+}
+.iconBeginners {
+	margin-top: 25px;
+	margin-left: 215px;
+}
+.iconIntermediate {
+	margin-top: 50px;
+	margin-right: 250px;
+}
+.beginnersHeader {
+	margin-top: 100px;
+	margin-left: 75px;
+}
+.beginnersText {
+	margin-top: 125px;
+	margin-left: -125px;
+}
+.intermediateHeader {
+	margin-top: 140px;
+	margin-right: 120px;
+}
+.intermediateText {
+	margin-top: 80px;
+	margin-right: -175px;
+}
+.vl {
+	border-left: 6px solid;
+	height: 500px;
+}
+.floatLeft {
+	float: left;
+}
+.floatRight {
+	float: right;
+}
+body { 
+	color: #D9D9D9;
+	background-color: #1B1D26;
+}
+hr {
+	border: 1px solid #2F3336;
+}
+h1 {
+	color: white;
+	font-family: Segoe UI Semibold;
+	text-shadow: 0px 2px #424249;
+}
+h3 {
+	font-family: Segoe UI Semibold;
+	text-shadow: 0px 2px #424249;
+}
+p {
+	font-family: Segoe UI;
+	text-shadow: 0px 2px #424249;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color:yellow;
+}
