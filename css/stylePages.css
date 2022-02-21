@@ -31,3 +31,25 @@ a:visited {
 a:hover {
 	color:yellow;
 }
+.iconHsv {
+	position: relative; 
+	display: inline-block;
+}
+.iconHsv .iconHsvHover {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.iconHsv:hover .iconHsvHover {
+	display: inline;
+}
+.animationSpin {
+	transition: transform 10s;
+}
+
+.animationSpin:hover {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(360deg);
+}
